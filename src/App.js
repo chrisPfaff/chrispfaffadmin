@@ -29,7 +29,7 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route component={404} />
+          <Route component={NotFound} />
         </Switch>
       </div>
     </Router>
