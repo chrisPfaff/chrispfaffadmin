@@ -1,0 +1,16 @@
+@import "../../global/global.scss";
+
+.About {
+  height: 100vh;
+  border: 3px solid $Black_Coral;
+  border-top: none;
+  &-title {
+    padding-top: 20px;
+    font-size: 4.8em;
+    color: $Blue;
+    font-family: $text-slabo;
+  }
+  &-description {
+    font-family: $text-slabo;
+  }
+}
