@@ -141,8 +141,8 @@ table {
     align-items: center;
     gap: 1px 1px;
     &-logo {
-      height: 50px;
-      width: 50px;
+      width: 100px;
+      margin-bottom: -20px;
       grid-area: 1/1;
     }
   }
@@ -154,10 +154,14 @@ table {
   }
   &-li a {
     text-decoration: none;
-    color: $Smoke;
+    color: $Blue;
     display: inline-block;
     padding: 0.5em 1.5em;
   }
+  &-li a:hover {
+    color: $Black_Coral;
+  }
+
   &-li {
     display: inline;
   }

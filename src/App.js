@@ -13,13 +13,15 @@ function App() {
         <header className="App-header">
           <nav className="App-nav">
             <h1 className="App-nav-logo">
-              <Link to="/" title="Home">
-                <img src="https://svgshare.com/i/KaQ.svg" alt="circle" />
+              <Link to="/" title="home page">
+                <img src="logo.svg" alt="circle" />
               </Link>
             </h1>
             <ul className="App-ul">
               <li className="App-li">
-                <Link to="/about">About</Link>
+                <Link to="/about" title="about page">
+                  About
+                </Link>
               </li>
             </ul>
           </nav>
