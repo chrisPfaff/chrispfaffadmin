@@ -145,13 +145,13 @@ table {
       margin-bottom: -20px;
       grid-area: 1/1;
       box-sizing: border-box;
-      border: 5px white solid;
+      border: 5px $Tuscany solid;
       border-radius: 50%;
       overflow: hidden;
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
       transform: translatey(0px);
       animation: float 6s ease-in-out infinite;
-      background: white;
+      background: $Blue;
       margin-top: 20px;
     }
   }
@@ -163,12 +163,14 @@ table {
   }
   &-li a {
     text-decoration: none;
-    color: $Blue;
+    color: $Smoke;
+    font-size: calc(16px + 2vmin);
+    font-weight: 600;
     display: inline-block;
     padding: 0.5em 1.5em;
   }
   &-li a:hover {
-    color: $Black_Coral;
+    color: $Blue;
   }
 
   &-li {
